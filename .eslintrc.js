@@ -8,10 +8,11 @@ module.exports = {
       parser: 'babel-eslint'
   },
   extends: ['react-app'],
-  plugins: ['react', 'import', 'flowtype', 'jsx-a11y'],
+  plugins: ['react', 'flowtype', 'jsx-a11y', 'import'],
   // add your custom rules here
   rules: {
       'jsx-a11y/anchor-has-content': 'off',
+      'jsx-a11y/alt-text': 'off',
       'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
       'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
       // 一般运算符放置行尾

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './app.css';
 
-import Monoarch from './views/Monoarch/index'
+import Monoarch from './views/monoarch/index'
 
 class App extends Component {
     render() {

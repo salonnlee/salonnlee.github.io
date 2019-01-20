@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styles from './index.module.less';
+import { Popover } from 'antd';
 
 class Monoarch extends Component {
     // constructor(props) {
@@ -11,7 +12,7 @@ class Monoarch extends Component {
                 <div className={styles.container}>
                     <img
                         className={styles.avatar}
-                        src={require('./images/me.png')}
+                        src={require('../../assets/images/me.png')}
                         alt="salonnlee"
                     />
                     <h2>Salon Lee</h2>
@@ -21,7 +22,18 @@ class Monoarch extends Component {
                             href="https://github.com/salonnlee"
                             className={styles.github}
                         />
-                        <a href className={styles.wechat} />
+                        <Popover
+                            placement="right"
+                            content={
+                                <img
+                                    width={168}
+                                    height={168}
+                                    src={require('../../assets/images/qrcode.jpg')}
+                                />
+                            }
+                        >
+                            <a href className={styles.wechat} />
+                        </Popover>
                     </div>
                 </div>
             </div>
