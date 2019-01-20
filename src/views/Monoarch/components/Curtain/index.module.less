@@ -1,0 +1,60 @@
+.curtain {
+    height: 95vh;
+    width: 100%;
+    background-image: url('./images/curtain.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        // => @ 头像
+        .avatar {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+        }
+        // => @ 姓名 / 描述
+        h2 {
+            margin: 10px auto 25px;
+            font-size: 38px;
+        }
+        span {
+            font-size: 25px;
+        }
+        h2,
+        span {
+            font-family: 'Santanelli';
+        }
+        // => @ 社交链接
+        .social {
+            margin: 25px auto;
+            a {
+                width: 30px;
+                height: 30px;
+                background-size: 30px;
+                display: inline-block;
+                margin-right: 15px;
+                background-position: center center;
+                background-repeat: no-repeat;
+                text-align: center;
+                opacity: 0.9;
+                cursor: pointer;
+                &:last-child {
+                    margin-right: 0;
+                }
+                &.github {
+                    background-image: url('./images/github.png');
+                }
+                &.wechat {
+                    background-image: url('./images/wechat.png');
+                }
+            }
+        }
+    }
+}
