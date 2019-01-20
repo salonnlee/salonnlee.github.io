@@ -1,9 +1,10 @@
 @import './assets/fonts/index.less';
 
 body {
+    font-size: 14px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
         'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
-        'Helvetica Neue', sans-serif;
+        'Helvetica Neue', 'Fira Code', sans-serif; // => 在 sans-serif 前拯救 Fira Code
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -16,8 +17,8 @@ html {
 }
 
 code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-        monospace;
+    font-family: source-code-pro, Menlo, Monaco, 'Fira Code', Consolas,
+        'Courier New', monospace;
 }
 
 .salonnlee {
@@ -31,5 +32,8 @@ code {
         padding: 0;
         font-weight: normal;
         font-size: inherit;
+    }
+    i {
+        font-style: normal;
     }
 }
