@@ -11,6 +11,6 @@ ghpages.publish(
         if (err) {
             console.log('ghpages error: ', err);
         }
-        console.log('publish success.')
+        console.log('publish success.');
     }
 );
