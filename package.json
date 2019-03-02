@@ -1,8 +1,9 @@
 {
   "name": "salonnlee.github.io",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
+    "@lunafreya/hanabi": "^1.0.2",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-scripts": "2.1.5"
@@ -24,6 +25,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@lunafreya/eslint-config-chiyo": "^1.0.10",
     "gh-pages": "^2.0.1"
   }
 }
