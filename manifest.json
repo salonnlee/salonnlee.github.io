@@ -1,6 +1,6 @@
 {
-  "short_name": "salonnlee",
-  "name": "Salon Lee: Front End Developer",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
