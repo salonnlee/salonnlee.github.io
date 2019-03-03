@@ -5,10 +5,10 @@ export default {
   plugins: [
     // ref: https://umijs.org/plugin/umi-plugin-react.html
     ['umi-plugin-react', {
-      antd: true,
+      antd: false,
       dva: true,
       dynamicImport: { webpackChunkName: true },
-      title: 'salonnlee.github.io',
+      title: 'umi',
       dll: true,
       
       routes: {
