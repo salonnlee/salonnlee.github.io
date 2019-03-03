@@ -1,0 +1,67 @@
+@font-family: 'PT Sans', sans-serif;
+
+@li-padding: 5px;
+
+// colors
+@background-color: #1a1a1a;
+@progressbar-title-color: #fff;
+
+@red: #c0392b;
+@blue: #1199ff;
+@purple: #9b59b6;
+@orange: #ffa500;
+@green: #27ae60;
+
+@animation-delay: 0.7s;
+
+.border-radius(@radius) {
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    -ms-border-radius: @radius;
+    border-radius: @radius;
+}
+
+.move {
+    margin-top: -10vh;
+}
+
+.progress-container {
+    font-size: 18px;
+    position: relative;
+}
+
+.progressbar-title {
+    font-family: @font-family;
+    margin-top: 25px;
+    position: relative;
+    h3 {
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+    }
+    .percent {
+        font-family: 'Operator Mono';
+        position: absolute;
+        bottom: 0;
+        right: @li-padding;
+    }
+}
+
+.bar-container {
+    background: rgba(85, 85, 85, 0.8);
+    position: relative;
+    height: 6px;
+    width: 500px;
+    margin-top: 5px;
+    display: block;
+
+    box-shadow: 0 2px 8px 0 rgba(99, 99, 99, 0.5);
+
+    .border-radius(6px);
+    .progressbar {
+        position: absolute;
+        height: 100%;
+        width: 0%;
+        .border-radius(6px);
+    }
+}
