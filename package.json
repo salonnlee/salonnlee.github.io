@@ -17,22 +17,25 @@
         "@lunafreya/hanabi": "^1.0.2"
     },
     "devDependencies": {
+        "@lunafreya/eslint-config-chiyo": "^1.0.10",
         "babel-eslint": "^9.0.0",
         "eslint": "^5.4.0",
-        "prettier": "^1.16.4",
         "eslint-config-umi": "^1.4.0",
         "eslint-plugin-flowtype": "^2.50.0",
         "eslint-plugin-import": "^2.14.0",
         "eslint-plugin-jsx-a11y": "^5.1.1",
-        "eslint-plugin-react": "^7.11.1",
         "eslint-plugin-prettier": "^3.0.1",
+        "eslint-plugin-react": "^7.11.1",
+        "gh-pages": "^2.0.1",
         "husky": "^0.14.3",
+        "less": "^3.9.0",
+        "less-loader": "^4.1.0",
         "lint-staged": "^7.2.2",
+        "prettier": "^1.16.4",
         "react-test-renderer": "^16.7.0",
         "umi": "^2.4.2",
         "umi-plugin-react": "^1.4.0",
-        "@lunafreya/eslint-config-chiyo": "^1.0.10",
-        "gh-pages": "^2.0.1"
+        "webpack": "^4.29.6"
     },
     "lint-staged": {
         "*.{js,jsx}": [

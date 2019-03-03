@@ -1,3 +1,3 @@
 {
-  "extends": ["eslint-config-umi", "@lunafreya/chiyo"]
+    "extends": ["eslint-config-umi", "@lunafreya/chiyo"]
 }

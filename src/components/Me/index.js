@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import './index.modules.less';
+import meStyle from './index.less';
 
 class Me extends Component {
     render() {
         return (
-            <div className="me">
+            <div className={meStyle.me}>
                 <img
-                    className="avatar"
-                    src={require('@assets/images/me.png')}
+                    className={meStyle.avatar}
+                    src={require('@/assets/images/me.png')}
                     alt="Me"
                 />
             </div>

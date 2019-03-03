@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './index.modules.less';
-import './todolist.modules.less';
+import dashboardStyle from './index.less';
+import todolistStyle from './todolist.less';
 
 class DashBoard extends Component {
     constructor(props) {
@@ -46,18 +46,23 @@ class DashBoard extends Component {
         console.log(this);
         const { todolist } = this.state;
         return (
-            <div className="dashboard">
-                <div className="move">
+            <div className={dashboardStyle.dashboard}>
+                <div className={dashboardStyle.move}>
                     {/* => @TEMP todolist 土豆清单 */}
                     {todolist.map(todo => (
-                        <div className="progress-container">
-                            <div className="progressbar-title">
+                        <div
+                            key={todo.name}
+                            className={todolistStyle['progress-container']}
+                        >
+                            <div className={todolistStyle['progressbar-title']}>
                                 <h3>{todo.title}</h3>
-                                <span className="percent">{todo.percent}</span>
+                                <span className={todolistStyle['percent']}>
+                                    {todo.percent}
+                                </span>
                             </div>
-                            <div className="bar-container">
+                            <div className={todolistStyle['bar-container']}>
                                 <span
-                                    className="progressbar progressed"
+                                    className={todolistStyle['progressbar']}
                                     style={{
                                         ...todo.style,
                                         width: todo.percent
