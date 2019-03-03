@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 
+import Me from './components/Me/index';
+
 class App extends Component {
     render() {
         return (
-            <div className="App">
-                {/* => @TODO 测试 alias 路径和 font 字体 */}
-            </div>
+            <React.Fragment>
+                <Me />
+            </React.Fragment>
         );
     }
 }
