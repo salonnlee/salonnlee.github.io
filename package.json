@@ -2,7 +2,32 @@
     "name": "salonnlee.github.io",
     "version": "0.1.1",
     "private": true,
+    "scripts": {
+      "start": "umi dev",
+      "build": "umi build",
+      "test": "umi test",
+      
+      "lint": "eslint --ext .js src mock tests",
+      
+      
+      "precommit": "lint-staged",
+
+        "deploy": "node ghpages.js"
+    },
+    "lint-staged": {
+      "*.{js,jsx}": ["eslint --fix", "git add"]
+    },
+    "engines": {
+      "node": ">=8.0.0"
+    },
     "dependencies": {
+      
+
+        "dva": "^2.5.0-beta.2",
+      
+      
+      "antd": "^3.12.1",
+      
         "@babel/core": "7.2.2",
         "@lunafreya/hanabi": "^1.0.2",
         "@svgr/webpack": "4.1.0",
@@ -56,12 +81,6 @@
         "webpack-manifest-plugin": "2.0.4",
         "workbox-webpack-plugin": "3.6.3"
     },
-    "scripts": {
-        "start": "node scripts/start.js",
-        "build": "node scripts/build.js",
-        "test": "node scripts/test.js",
-        "deploy": "node ghpages.js"
-    },
     "browserslist": [
         ">0.2%",
         "not dead",
@@ -69,6 +88,13 @@
         "not op_mini all"
     ],
     "devDependencies": {
+        "eslint-config-umi": "^1.4.0",
+      "husky": "^0.14.3",
+      "lint-staged": "^7.2.2",
+      "react-test-renderer": "^16.7.0",
+      
+      "umi": "^2.4.2",
+      "umi-plugin-react": "^1.4.0",
         "@lunafreya/eslint-config-chiyo": "^1.0.10",
         "eslint-plugin-prettier": "^3.0.1",
         "gh-pages": "^2.0.1",
