@@ -1,10 +1,10 @@
 const ghpages = require('gh-pages');
 
 ghpages.publish(
-    'build',
+    'dist',
     {
         branch: 'master',
-        repo: 'https://github.com/salonnlee/salonnlee.github.io.git',
+        repo: 'git@github.com:salonnlee/salonnlee.github.io.git',
         message: '更新：' + new Date().toLocaleString()
     },
     err => {
