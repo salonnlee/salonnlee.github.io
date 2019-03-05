@@ -1,13 +1,16 @@
 import React from 'react';
 
-import Me from '@/components/Me/index';
-import DashBoard from '@/components/DashBoard';
+import MusicPendant from '../components/MusicPendant';
+
+import styles from './index.less';
 
 export default function() {
     return (
-        <React.Fragment>
-            <DashBoard />
-            <Me />
-        </React.Fragment>
+        <div className={styles['fullscreen']}>
+            <div className={styles['container']}>
+                <p className={styles['name']}>Salon Lee</p>
+                <MusicPendant />
+            </div>
+        </div>
     );
 }

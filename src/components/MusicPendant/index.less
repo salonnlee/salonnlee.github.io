@@ -1,0 +1,110 @@
+.musicpendant {
+    @base-white: #d6dee7;
+
+    position: relative;
+
+    background-color: #fff;
+    box-shadow: 0 10px 45px @base-white;
+    border-radius: 15px;
+
+    left: 0;
+    width: 430px;
+    height: 100px;
+
+    margin-top: 50px;
+
+    #album-art {
+        position: absolute;
+        top: -40px;
+
+        width: 115px;
+        height: 115px;
+
+        img {
+            width: 115px;
+            height: 115px;
+            background-color: #fff;
+        }
+
+        margin-left: 40px;
+
+        box-shadow: 0 0 0 10px #fff;
+        border-radius: 50%;
+
+        overflow: hidden;
+
+        transform: rotateZ(0);
+        transition: 0.3s ease all;
+
+        &:before {
+            content: '';
+
+            position: absolute;
+            top: 50%;
+            right: 0;
+            left: 0;
+
+            background-color: @base-white;
+
+            width: 20px;
+            height: 20px;
+
+            margin: -10px auto 0 auto;
+
+            box-shadow: inset 0 0 0 2px #fff;
+            border-radius: 50%;
+        }
+    }
+
+    #player-controls {
+        float: right;
+
+        width: 250px;
+        height: 100%;
+
+        margin: 0 5px 0 141px;
+
+        overflow: hidden;
+        .control {
+            float: left;
+
+            width: 33.333%;
+
+            padding: 12px 0;
+
+            .button {
+                cursor: pointer;
+
+                width: 26px;
+                height: 26px;
+                border-radius: 6px;
+
+                padding: 25px;
+
+                background-color: #fff;
+
+                &,
+                &.i {
+                    transition: 0.2s ease all;
+                }
+
+                i {
+                    display: block;
+
+                    font-size: 26px;
+                    text-align: center;
+                    line-height: 1;
+
+                    color: #d6dee7;
+                }
+
+                &:hover {
+                    background-color: @base-white;
+                    i {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
