@@ -1,7 +1,7 @@
 const ghpages = require('gh-pages');
 
 ghpages.publish(
-    'dist',
+    'build',
     {
         user: {
             name: 'salonnlee',
@@ -13,8 +13,8 @@ ghpages.publish(
     },
     err => {
         if (err) {
-            console.log('ghpages publish failed, ', err);
+            console.log('Gh Pages Publish Failed, ', err);
         }
-        console.log('ghpages publish success.');
+        console.log('Gh Pages Publish Success.');
     }
 );
