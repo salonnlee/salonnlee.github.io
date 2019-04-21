@@ -40,6 +40,9 @@
     "postcss-loader": "3.0.0",
     "postcss-preset-env": "6.5.0",
     "postcss-safe-parser": "4.0.1",
+    "ramda": "^0.26.1",
+    "ramda-adjunct": "^2.17.0",
+    "ramda-extension": "^0.7.2",
     "react": "^16.8.6",
     "react-app-polyfill": "^0.2.2",
     "react-dev-utils": "^8.0.0",
@@ -55,10 +58,17 @@
     "webpack-manifest-plugin": "2.0.4",
     "workbox-webpack-plugin": "3.6.3"
   },
+  "devDependencies": {
+    "@babel/register": "^7.4.0",
+    "cross-env": "^5.2.0",
+    "gh-pages": "^2.0.1",
+    "mocha": "^6.1.4"
+  },
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
+    "test:utils": "cross-env NODE_ENV=test mocha test/ --require @babel/register",
     "deploy": "node gh-pages.js"
   },
   "eslintConfig": {
@@ -70,9 +80,6 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "devDependencies": {
-    "gh-pages": "^2.0.1"
-  },
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,ts,tsx}",
