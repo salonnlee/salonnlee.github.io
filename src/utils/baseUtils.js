@@ -2,7 +2,7 @@ const R = require('ramda');
 const RA = require('ramda-adjunct');
 const R_ = require('ramda-extension');
 
-export const { type, compose } = R;
+export const { type, compose, forEach, cond, T, F, identity } = R;
 
 export const {
     isNull,

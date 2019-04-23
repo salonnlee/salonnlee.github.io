@@ -1,6 +1,6 @@
 {
-  "name": "taeyang",
-  "version": "0.1.0",
+  "name": "lixiaolongstudio",
+  "version": "0.1.2",
   "private": true,
   "dependencies": {
     "@babel/core": "7.2.2",

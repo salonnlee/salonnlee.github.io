@@ -1,15 +1,9 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-
-import Entrance from './views/Entrance';
+import { renderRouter } from './routes';
 
 class App extends Component {
     render() {
-        return (
-            <Router>
-                <Route path="/" exact component={Entrance} />
-            </Router>
-        );
+        return <React.Fragment>{renderRouter()}</React.Fragment>;
     }
 }
 
