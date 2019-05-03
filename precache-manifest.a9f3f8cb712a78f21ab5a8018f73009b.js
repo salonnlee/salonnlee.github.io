@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "51eb4f39858b31fe0614455367bf5b88",
-    "url": "/static/media/catface.51eb4f39.png"
+    "revision": "dc032aeecb9d9122c41b4500047a3903",
+    "url": "/static/media/wechat_qrcode.dc032aee.jpg"
   },
   {
-    "revision": "aab032df48b455c49d79",
-    "url": "/static/css/main.6f40cb93.chunk.css"
+    "revision": "6d9c89a6d03717e6100d",
+    "url": "/static/css/main.459e649c.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -16,28 +16,28 @@ self.__precacheManifest = [
     "url": "/static/media/nobodysland.52f62ba7.mp3"
   },
   {
-    "revision": "9c8342b64959fa52959d",
-    "url": "/static/js/2.339b4f05.chunk.js"
-  },
-  {
-    "revision": "6f4cc8da2f59fa962583bd6fc02d8bf1",
-    "url": "/static/media/hellokitty.6f4cc8da.png"
+    "revision": "0e68f64b5c1c161ad7a9",
+    "url": "/static/js/2.f3baa977.chunk.js"
   },
   {
     "revision": "ab7ec22dca07451a7c803ba993474a0e",
     "url": "/static/media/dogface.ab7ec22d.png"
   },
   {
+    "revision": "6f4cc8da2f59fa962583bd6fc02d8bf1",
+    "url": "/static/media/hellokitty.6f4cc8da.png"
+  },
+  {
     "revision": "eafb0a246d62a224e854389d41f5b407",
     "url": "/static/media/catpaw.eafb0a24.png"
   },
   {
-    "revision": "aab032df48b455c49d79",
-    "url": "/static/js/main.bf5cfe66.chunk.js"
+    "revision": "51eb4f39858b31fe0614455367bf5b88",
+    "url": "/static/media/catface.51eb4f39.png"
   },
   {
-    "revision": "dc032aeecb9d9122c41b4500047a3903",
-    "url": "/static/media/wechat_qrcode.dc032aee.jpg"
+    "revision": "6d9c89a6d03717e6100d",
+    "url": "/static/js/main.4a9b4ce3.chunk.js"
   },
   {
     "revision": "5b67de36bd7605c075746afd97b8789f",
@@ -56,15 +56,19 @@ self.__precacheManifest = [
     "url": "/static/media/Santanelli.6a0a3c5a.otf"
   },
   {
+    "revision": "418559e059be72ce2b3a7099bd07280d",
+    "url": "/static/media/Lobster.418559e0.otf"
+  },
+  {
     "revision": "fa1f8c8961adca519738d9518139579c",
     "url": "/static/media/FiraCode-Regular.fa1f8c89.ttf"
   },
   {
-    "revision": "9c8342b64959fa52959d",
-    "url": "/static/css/2.d4d5b9e3.chunk.css"
+    "revision": "0e68f64b5c1c161ad7a9",
+    "url": "/static/css/2.a17e9c59.chunk.css"
   },
   {
-    "revision": "9a5d2cfcb81283b931abf3a91fa7058a",
+    "revision": "e295f3056c4818304b8bbf5d7efe2f8b",
     "url": "/index.html"
   }
 ];
