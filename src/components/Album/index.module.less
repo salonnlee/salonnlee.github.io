@@ -1,0 +1,42 @@
+.album {
+    position: fixed;
+    top: 15px;
+    right: 20px;
+
+    z-index: 100;
+
+    i.music {
+        display: inline-block;
+
+        transform: rotate(0deg);
+
+        animation-name: "album-rotating";
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+
+        &.paused {
+            animation-play-state: paused;
+        }
+
+        width: 64px;
+        height: 64px;
+
+        border-radius: 50%;
+
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.2);
+
+        margin: 15px;
+
+        cursor: pointer;
+
+        background-size: 70px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(~"@assets/images/music.png");
+    }
+}
+
+.audio {
+    display: none;
+}
