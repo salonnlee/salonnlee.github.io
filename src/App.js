@@ -1,5 +1,7 @@
 import React, { Component } from "react";
+
 import { renderRouter } from "./routes";
+
 import Album from "./components/Album";
 
 class App extends Component {

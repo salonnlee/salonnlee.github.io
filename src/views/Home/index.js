@@ -3,11 +3,12 @@ import React, { Component } from "react";
 import { Popover } from "antd";
 
 import styles from "./index.module.less";
+import CountDown from "../../components/CountDown";
 
 class Home extends Component {
     render() {
         return (
-            <div className={styles["dashboard"]}>
+            <div className={styles["home"]}>
                 <div className={styles["curtain"]}>
                     <div className={styles["avatar"]} />
                 </div>
@@ -43,6 +44,7 @@ class Home extends Component {
                             </Popover>
                         </i>
                     </div>
+                    <CountDown />
                 </div>
             </div>
         );
