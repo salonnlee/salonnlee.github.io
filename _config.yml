@@ -17,7 +17,11 @@ css:
 
 js:
   all:
+    - /assets/js/boot.js
+
+  docs:
     - /assets/js/docs.js
+
   home:
     - /assets/js/home.js
 
@@ -30,19 +34,19 @@ links:
 
   org:
     https://github.com/orgs/lodash
-  
+
   raw:
     https://raw.githubusercontent.com/lodash/lodash
-  
+
   repo:
     https://github.com/lodash/lodash
-  
+
 sass:
   sass_dir:
     assets/css
 
 builds:
-   *release:
+  *release:
     href: https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js
     integrity: sha384-9STIK/s/5av47VsUK9w+PMhEpgZTkKW+wvmRSjU+Lx9DSrl5RdjHeOLhyNhuoYtY
 
@@ -65,7 +69,7 @@ font-face:
       - https://fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqSP2LEk6lMzYsRqr3dHFImA.woff2
     semi-bold:
       - https://fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqczFoXZ-Kj537nB_-9jJhlA.woff2
-  
+
 vendor:
   css:
     - href: https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css
