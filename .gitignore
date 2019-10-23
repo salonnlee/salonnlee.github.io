@@ -1,0 +1,4 @@
+.jekyll-metadata
+*.log
+_site
+node_modules
