@@ -1,5 +1,7 @@
 repository: lodash/lodash.com
 
+port: 8080
+
 release:
   &release 4.17.15
 

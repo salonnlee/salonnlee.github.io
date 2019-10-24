@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "dev": "jekyll serve",
+        "dev": "bundle exec jekyll serve",
         "build": "npm run build:jekyll && npm run build:site",
         "build:config": "gulp build-config --release",
         "build:jekyll": "cross-env JEKYLL_ENV=production PAGES_GITHUB_HOSTNAME=lodash.com bundle exec jekyll build",
