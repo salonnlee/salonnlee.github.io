@@ -8,7 +8,7 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
+    "deploy": "cmd /C \"set \"GIT_USER=salonnlee\" && set \"USE_SSH=true\" && docusaurus deploy\"",
     "serve": "docusaurus serve",
     "clear": "docusaurus clear",
     "dev": "docusaurus start"
