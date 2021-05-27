@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://salonnlee.github.io/blog</id>
-    <title>My Site Blog</title>
+    <title>👦 Web Designer, Frontend Developer, Football Player based in Guangzhou (China🇨🇳). 一个不想当设计师的足球运动员不是好码农 Blog</title>
     <updated>2019-05-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://salonnlee.github.io/blog"/>
-    <subtitle>My Site Blog</subtitle>
+    <subtitle>👦 Web Designer, Frontend Developer, Football Player based in Guangzhou (China🇨🇳). 一个不想当设计师的足球运动员不是好码农 Blog</subtitle>
     <icon>https://salonnlee.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
