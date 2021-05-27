@@ -1,6 +1,10 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
+const pkg = require("./package.json");
+
+console.log(pkg);
+
 module.exports = {
-  title: "My Site",
+  title: pkg.description,
   tagline: "Dinosaurs are cool",
 
   // Deploying to Github Pages
