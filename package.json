@@ -1,7 +1,7 @@
 {
   "name": "salonnlee-github-io",
   "description": "👦 Web Designer, Frontend Developer, Football Player based in Guangzhou (China🇨🇳). 一个不想当设计师的足球运动员不是好码农",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
