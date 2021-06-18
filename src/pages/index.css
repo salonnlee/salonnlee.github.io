@@ -130,6 +130,7 @@ svg.targetblank {
 /* socialnetwork -------------------------------------------------- */
 
 .socialnetwork {
+  user-select: none;
   text-align: center;
   padding: 20px;
   position: absolute;
