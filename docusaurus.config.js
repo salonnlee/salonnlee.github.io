@@ -13,6 +13,8 @@ module.exports = {
   url: "https://salonnlee.github.io",
   baseUrl: "/",
 
+  scripts: ["https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"],
+
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
@@ -100,7 +102,7 @@ module.exports = {
             "https://github.com/facebook/docusaurus/edit/master/website/blog/"
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css")
+          customCss: require.resolve("./src/assets/css/custom.css")
         }
       }
     ]

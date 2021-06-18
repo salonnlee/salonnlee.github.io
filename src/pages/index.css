@@ -1,15 +1,209 @@
+/* app -------------------------------------------------- */
+
 #app {
-  background-color: #fff;
+  font-family: "Operator Mono";
+
   width: 100vw;
   height: 100vh;
   min-width: 1024px;
   min-height: 648px;
+
+  background-color: #f5f5f5;
 }
 
-#app .center-box {
+#app .self-box {
+  font-size: 14px;
+  text-shadow: 0 1px 0 rgb(255 255 255 / 80%);
+
   display: block;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  width: 500px;
+  min-height: 500px;
+  padding: 20px 0 77px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 2%), 0 4px 8px rgb(0 0 0 / 2%);
+
+  background-color: #fff;
+}
+
+/* fengyafont -------------------------------------------------- */
+.font-fengya {
+  font-family: "Fengya";
+  display: inline;
+  font-style: normal;
+}
+.font-fengya.bold {
+  font-weight: bold;
+}
+
+/* fengyafont -------------------------------------------------- */
+.crowd {
+  width: 500px;
+  height: 317px;
+}
+.crowd-loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* targetblank -------------------------------------------------- */
+svg.targetblank {
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: text-bottom;
+}
+
+/* airflight -------------------------------------------------- */
+
+.airflight {
+  position: relative;
+  padding: 0 20px;
+  border-bottom: 2px dashed #f5f5f5;
+  margin-bottom: 20px;
+}
+.airflight::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.airflight .airport {
+  float: left;
+  padding: 20px 18px;
+}
+.airflight .airport.hgh {
+  float: right;
+}
+.airflight .airport p {
+  font-family: "Bree Serif";
+  font-size: 50px;
+  line-height: 1;
+}
+.airflight .airport span {
+  font-size: 15px;
+  color: #a2a9b3;
+
+  display: block;
+
+  margin-bottom: 0px;
+  margin-left: 3px;
+}
+
+.airflight .airplane {
+  position: absolute;
+  transform: scale(1.5) translate(-50%, -50%);
+  top: 55%;
+  left: 32%;
+
+  width: 30px;
+  height: 25px;
+
+  opacity: 0;
+  animation: fly 3s infinite;
+}
+
+@keyframes fly {
+  40% {
+    left: 50%;
+    opacity: 1;
+  }
+  100% {
+    left: 70%;
+    opacity: 0;
+  }
+  /* 0% {
+    left: 50%;
+    opacity: 1;
+  }
+  100% {
+    left: 50%;
+    opacity: 1;
+  } */
+}
+
+/* socialnetwork -------------------------------------------------- */
+
+.socialnetwork {
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top: 2px solid #f5f5f5;
+}
+
+.socialnetwork a {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  margin: 0 10px;
+}
+.socialnetwork a:hover img,
+.socialnetwork a:hover svg {
+  opacity: 1;
+}
+.socialnetwork a img,
+.socialnetwork a svg {
+  height: 28px;
+  width: 28px;
+  transition: 0.3s;
+  opacity: 0.7;
+}
+
+/* socialnetwork wechat -------------------- */
+.socialnetwork .wechat .qrcode-box {
+  display: none;
+  position: absolute;
+  left: 35px;
+  top: 35px;
+  height: 200px;
+  width: 200px;
+  transform: translateY(-50%);
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 4%), 0 4px 8px rgb(0 0 0 / 4%);
+  background-color: #fff;
+}
+.socialnetwork .wechat:hover {
+  text-align: left;
+  margin-right: 0;
+  width: 38px;
+}
+.socialnetwork .wechat:hover .qrcode-box,
+.socialnetwork .wechat .qrcode-box:hover {
+  display: block;
+}
+.socialnetwork .wechat .qrcode {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  background-size: 235px;
+  background-position: -18px -68px;
+  background-image: url("https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1600832bf4444b74957a7667c92dc715~tplv-k3u1fbpfcp-watermark.image");
+}
+
+/* maincontent -------------------------------------------------- */
+.maincontent {
+  font-size: 0px;
+}
+.maincontent section {
+  margin: 10px 0;
+}
+.maincontent section:first-child {
+  margin-top: 0;
+}
+.maincontent section:last-child {
+  margin-bottom: 0;
+}
+.maincontent p {
+  color: #353535;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 14px;
 }
