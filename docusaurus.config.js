@@ -13,7 +13,7 @@ module.exports = {
   url: "https://salonnlee.github.io",
   baseUrl: "/",
 
-  scripts: ["https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"],
+  scripts: ["scripts/gsap.min.js"],
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
