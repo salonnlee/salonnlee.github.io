@@ -1,0 +1,20 @@
+.layout-pendant {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  white-space: nowrap;
+
+  height: 64px;
+  padding: 0 58px;
+
+  background: #fff;
+  box-shadow: 0 8px 24px -2px rgb(0 0 0 / 5%);
+
+  z-index: 101;
+}
