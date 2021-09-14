@@ -1,11 +1,5 @@
-# dependencies
 /node_modules
 
-# production
 /build
 
-# Generated files
-.docusaurus
-
-# temporary and cache files
 .DS_Store
