@@ -2,14 +2,22 @@ import React from "react";
 
 import "./index.css";
 
+import avatarUrl from "../../assets/avatar.jpeg";
+
+const Avatar = () => <img className="avatar" src={avatarUrl} alt="salonnlee" />;
+const Name = () => <p className="name">SALONNLEE</p>;
+const Logo = () => (
+  <div className="logo">
+    <Avatar />
+    <Name />
+  </div>
+);
+
 class Pendant extends React.Component {
   render() {
     return (
       <div className="layout-pendant">
-        <p style={{ color: "#c5c5c5" }}>
-          {/* 我希望做一个能永远为当下骄傲的人 */}
-          いつでも今を誇れる人で在りたい 。
-        </p>
+        <Logo />
       </div>
     );
   }
