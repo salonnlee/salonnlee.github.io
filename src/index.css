@@ -2,6 +2,10 @@
   font-family: "OperatorMono Bold";
   src: url("./assets/OperatorMono-Bold.otf");
 }
+@font-face {
+  font-family: "OperatorMono Book";
+  src: url("./assets/OperatorMono-Book.otf");
+}
 
 html,
 body {
