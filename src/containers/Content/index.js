@@ -1,12 +1,22 @@
 import React from "react";
-import CHARACTERS from "./characters";
+import CHARACTERS, { BILLS, LINEBREAK } from "./characters";
 
 import "./index.css";
 
 const Soliloquy = () => (
   <div className="soliloquy">
     {CHARACTERS.map((characters) => {
-      return <p>{characters}</p>;
+      return (
+        <p
+          style={{
+            ...(characters === LINEBREAK && {
+              color: "transparent"
+            })
+          }}
+        >
+          {characters}
+        </p>
+      );
     })}
   </div>
 );
