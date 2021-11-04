@@ -60,7 +60,7 @@ export const BILLS = [
     "Alipay -¥10000.00 + -¥10000.00 + -¥20000.00 + +¥10000.00 = -¥30000.00",
   SPACECHARACTER.repeat(5) + "Total Debt -¥10000.00 + -¥20000.00 = -¥30000.00",
   LINEBREAK,
-  SPACECHARACTER.repeat(16) + "2021-01-15",
+  SPACECHARACTER.repeat(16) + "2022-01-15",
   SPACECHARACTER.repeat(9) + "Salary +¥14750.00",
   SPACECHARACTER.repeat(0) +
     "Monthly Expense -¥600.00 + -¥1200.00 + -¥1200.00 + -¥1750.00 = -¥4750.00",
