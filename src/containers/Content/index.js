@@ -13,9 +13,8 @@ const Soliloquy = () => (
               color: "transparent"
             })
           }}
-        >
-          {characters}
-        </p>
+          dangerouslySetInnerHTML={{ __html: characters }}
+        ></p>
       );
     })}
   </div>
