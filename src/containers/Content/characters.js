@@ -9,10 +9,8 @@ const SPACECHARACTER = "&nbsp;";
 
 export const BILLS = [
   SPACECHARACTER.repeat(16) + "Debt adjustment",
-  SPACECHARACTER.repeat(5) + "Du Xiaoman -¥7500.00 = -¥7500.00",
   SPACECHARACTER.repeat(9) +
     "Alipay -¥10000.00 + -¥10000.00 + -¥20000.00 = -¥40000.00",
-  SPACECHARACTER.repeat(5) + "Total Debt -¥40000.00 + -¥7500.00 = -¥47500.00",
   LINEBREAK,
   SPACECHARACTER.repeat(16) + "2021-12-15",
   SPACECHARACTER.repeat(9) + "Salary +¥14750.00",
@@ -45,10 +43,8 @@ export const BILLS = [
     "Residual salary +¥14750.00 + -¥5150.00 = +¥10000.00",
   LINEBREAK,
   SPACECHARACTER.repeat(16) + "Debt adjustment",
-  SPACECHARACTER.repeat(5) + "Du Xiaoman -¥7500.00 + +¥7500.00 = ¥0.00",
   SPACECHARACTER.repeat(9) +
-    "Alipay -¥10000.00 + -¥10000.00 + -¥20000.00 + +¥2500.00 = -¥40000.00",
-  SPACECHARACTER.repeat(5) + "Total Debt -¥10000.00 + -¥10000.00 + -¥20000.00 = -¥40000.00",
+    "Alipay -¥10000.00 + -¥10000.00 + -¥20000.00 + +¥10000.00 = -¥30000.00",
   LINEBREAK,
   SPACECHARACTER.repeat(16) + "2022-01-15",
   SPACECHARACTER.repeat(9) + "Salary +¥14750.00",
@@ -59,8 +55,7 @@ export const BILLS = [
   LINEBREAK,
   SPACECHARACTER.repeat(16) + "Debt adjustment",
   SPACECHARACTER.repeat(9) +
-    "Alipay -¥10000.00 + -¥10000.00 + -¥20000.00 + +¥10000.00 = -¥30000.00",
-  SPACECHARACTER.repeat(5) + "Total Debt -¥30000.00",
+    "Alipay -¥10000.00 + -¥20000.00 + +¥10000.00 = -¥20000.00",
   LINEBREAK,
   SPACECHARACTER.repeat(16) + "2022-02-01 Spring"
 ];
