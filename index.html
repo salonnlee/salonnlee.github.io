@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset='utf-8'>
-	<meta name='viewport' content='width=device-width,initial-scale=1'>
+  <head>
+    <meta charset="utf-8" />
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1" /> -->
 
-	<title>minesweeper</title>
+    <title>minesweeper</title>
 
-	<link rel='stylesheet' href='./global.css'>
-	<link rel='stylesheet' href='./build/bundle.css'>
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./build/bundle.css" />
 
-	<script defer src='./build/bundle.js'></script>
-</head>
+    <script>
+      var oMeta = document.createElement("meta");
+      oMeta.name = "viewport";
+      var zoom = window.screen.width < 1080 ? window.screen.width / 1080 : 1;
+      if (zoom < 1) {
+        oMeta.content = `width=device-width, initial-scale=${zoom}`;
+      } else {
+        oMeta.contains = "width=device-width,initial-scale=1";
+      }
+      document.getElementsByTagName("head")[0].appendChild(oMeta);
+    </script>
 
-<body>
-</body>
+    <script defer src="./build/bundle.js"></script>
+  </head>
+
+  <body></body>
 </html>
