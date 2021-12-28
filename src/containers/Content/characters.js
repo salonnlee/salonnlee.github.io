@@ -10,12 +10,12 @@ const SPACECHARACTER = "&nbsp;";
 export const BILLS = [
   SPACECHARACTER.repeat(16) + "Debt adjustment",
   SPACECHARACTER.repeat(9) +
-    "Alipay -¥5000.00 + -¥20000.00 = -¥25000.00",
+    "Alipay -¥20000.00 = -¥20000.00",
   LINEBREAK,
-  SPACECHARACTER.repeat(16) + "2021-01-15",
+  SPACECHARACTER.repeat(16) + "2022-01-15",
   SPACECHARACTER.repeat(9) + "Salary +¥14750.00",
   SPACECHARACTER.repeat(0) +
-    "Monthly Expense -[(¥15.00 + ¥15.00) × 20] + -[(¥15.00 + ¥30.00 + ¥30.00) × 30] + -(¥648.00) + -¥1750.00 = ",
+    "Monthly Expense -[(¥15.00 + ¥15.00) × 20] + -[(¥15.00 + ¥30.00 + ¥30.00) × 30] + -¥648.00 + -¥1750.00 = ",
   SPACECHARACTER.repeat(16) +
     "-¥600.00 + -¥2250.00 + -¥648.00 + -¥1750.00 = -¥5250.00",
   SPACECHARACTER.repeat(16) +
@@ -40,7 +40,7 @@ export const BILLS = [
   LINEBREAK,
   SPACECHARACTER.repeat(16) + "Debt adjustment",
   SPACECHARACTER.repeat(9) +
-    "Alipay -¥5000.00 + -¥20000.00 + +¥10000.00 = -¥15000.00",
+    "Alipay -¥20000.00 + +¥10000.00 = -¥10000.00",
   LINEBREAK,
   SPACECHARACTER.repeat(16) + "2022-02-01 Spring"
 ];
